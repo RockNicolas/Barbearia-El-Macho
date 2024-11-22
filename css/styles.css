@@ -600,7 +600,7 @@ header nav .menu li a:focus {
 }
 
 .icon-column img {
-    width: 40px; 
+    width: 50px; 
     height: auto;
     margin-bottom: 20px;
 }
@@ -654,6 +654,8 @@ header nav .menu li a:focus {
         right: 0;
         top: 0;
         margin-bottom: 15px;
+        display: flex;  /* Garantir que os ícones fiquem alinhados verticalmente */
+        justify-content: space-evenly; /* Espaço entre ícones */
     }
 
     .left-icons img,
@@ -679,7 +681,7 @@ header nav .menu li a:focus {
     .social-icon span {
         font-size: 12px; 
     }
-} 
+}
 
 @media (max-width: 375px) { 
     .icon-column {
