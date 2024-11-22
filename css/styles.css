@@ -330,13 +330,15 @@ header nav .menu li a:focus {
 }
 
 @media screen and (max-width: 768px) {
-    .sobre-container {
+       .sobre-container {
         display: flex;
-        flex-direction: column;  
-        align-items: center;     
-        gap: 20px;             
-        margin-left: auto;       
-        margin-right: auto;     
+        flex-direction: column;
+        align-items: center; /* Garante centralização horizontal */
+        justify-content: center; /* Centraliza os itens verticalmente */
+        gap: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%; /* Faz com que a altura ocupe toda a tela */
     }
 }
 
