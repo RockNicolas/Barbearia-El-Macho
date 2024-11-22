@@ -254,6 +254,7 @@ header nav .menu li a:focus {
     margin-left: auto;
     margin-right: auto;   
     display: flex;
+    transform: translateX(200px);  
 } 
 
 .sobre-container {
