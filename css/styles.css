@@ -242,7 +242,7 @@ header nav .menu li a:focus {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
-.sobre-container {
+/*.sobre-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     gap: 30px;
@@ -255,7 +255,7 @@ header nav .menu li a:focus {
     margin-right: auto;   
     display: flex;
     transform: translateX(200px);  
-} 
+} */
 
 .sobre-container {
     display: grid;
