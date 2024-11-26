@@ -215,7 +215,7 @@ header nav .menu li a:focus {
 .service-container {
     display: flex;
     justify-content: space-between;
-    gap: 31px;
+    gap: 20px;
     flex-wrap: wrap;
     width: 100%;
     max-width: 1200px;
@@ -227,9 +227,8 @@ header nav .menu li a:focus {
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(255, 255, 255, 0.801); 
-    width: 23%;
+    width: 23%; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 350px;
     margin-top: 20px;
     margin-bottom: 30px;
     box-sizing: border-box;
@@ -239,7 +238,19 @@ header nav .menu li a:focus {
 
 @media (orientation: landscape) {
     .service {
-        width: 40%;
+        width: 23%; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .service {
+        width: 48%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .service {
+        width: 100%;
     }
 }
 
