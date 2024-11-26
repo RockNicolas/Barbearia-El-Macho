@@ -1099,6 +1099,39 @@ footer {
     }
 }
 
+
+@media (orientation: landscape) and (max-width: 768px) {
+    .modal-content {
+        width: 75%;   
+        padding: 20px;
+    }
+
+    .modal-content h2 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .modal-content p {
+        font-size: 14px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 480px) {
+    .modal-content {
+        width: 90%;   
+        padding: 15px;
+    }
+
+    .modal-content h2 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .modal-content p {
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 768px) {
     .image {
         top: -10px; 
