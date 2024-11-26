@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia EL Macho</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="imagex/png" href="img/logo/icon logo.jpg">
+    <script defer src="/js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#venha">venha nos conhecer</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('/img/barbearia/barbearia 1.jfif') no-repeat center center/cover;">
+        <div class="hero-content">
+            <img src="/img/logo/home principal.jpg" alt="Imagem da Barbearia" class="image">
+            <h2>Bem-vindo a barbearia El Macho</h2>
+            <p>Corte de cabelo, barba e muito mais. Sinta-se em casa!</p>
+        </div>
+    </section>
+    
+    <section id="services" class="services" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('/img/barbearia/quadros.jpeg') no-repeat center center/cover;">
+        <h2>Serviços Oferecidos</h2>
+        <div class="service-container">
+            <div class="service">
+                <h3>Valores!</h3>
+                <p>Venha conhecer os valores.</p>
+                <button class="open-modal" data-modal="modal0">Saiba mais</button>
+            </div>
+            <div class="service">
+                <h3>Corte de Cabelo</h3>
+                <p>Estilos modernos para o seu visual.</p>
+                <button class="open-modal" data-modal="modal1">Saiba mais</button>
+            </div>
+    
+            <div class="service">
+                <h3>Barba</h3>
+                <p>Cuide da sua barba comigo.</p>
+                <button class="open-modal" data-modal="modal2">Saiba mais</button>
+            </div>
+                
+            <div class="service">
+                <h3>Marque seu horário!</h3>
+                <p>Venha ver os horários.</p>
+                <button class="open-modal" data-modal="modal3">Saiba mais</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="linha">
+                <div class="imagem esquerda">
+                    <img src="/img/barbearia/entrada.jfif" alt="Imagem 1">
+                </div>
+                <div class="texto">
+                    <h2 class="left">Sobre a Barbearia</h2>
+                    <p>A Barbearia El Macho é um espaço dedicado a proporcionar aos clientes uma experiência única, com cortes de cabelo perfeitos, realizados conforme seus desejos e preferências. Destacamo-nos por oferecer cortes modernos e personalizados, garantindo que cada cliente saia plenamente satisfeito com o resultado. Seja qual for o estilo desejado, na Barbearia El Macho, o corte dos seus sonhos é alcançado com cuidado e atenção aos detalhes.</p>
+                </div>
+            </div>
+        
+            <div class="linha">
+                <div class="imagem direita imagem2">
+                    <img src="/img/logo/jp.jpg" alt="imagem2">
+                </div>
+                <div class="texto">
+                    <h2 class="right">Sobre o Barbeiro</h2>
+                    <p>Prazer, sou João Pedro, barbeiro e fundador da Barbearia El Macho.
+                        João Pedro não é apenas um barbeiro, mas também um amigo e mentor para muitos de seus clientes. Ele se importa com o bem-estar de cada um, criando vínculos de confiança que vão além do serviço prestado. Sempre disposto a ajudar, ele oferece uma palavra amiga, seja sobre um corte de cabelo ou algo pessoal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal1">&times;</span>
+            <img src="/img/cortes/corte 2.jfif" alt="Imagem do barbeiro" class="barbeiro-img">
+            <h2>Corte de Cabelo</h2>
+            <p>Na nossa barbearia, oferecemos uma ampla gama de cortes de cabelo modernos, utilizamos técnicas para proporcionar resultados impecáveis. Garantimos que o alinhado às suas expectativas e à tendência atual. Confie no nosso conhecimento e experiência para alcançar o estilo que você deseja com a máxima precisão e sofisticação.</p>
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal2">&times;</span>
+            <img src="/img/cortes/barba.jpg" alt="Imagem do barbeiro" class="barbeiro-img">
+            <h2>Barba</h2>
+            <p>Cuide da sua barba com produtos de qualidade e o cuidado profissional que ela merece. Temos opções de aparar, modelar e hidratar a barba para um visual impecável!</p>
+        </div>
+    </div>
+
+    <div id="modal0" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal0">&times;</span>
+            <h2>Valores</h2>
+            <p>Aqui temos os valores dos cortes!
+            </br>
+                Corte degradê 30$</br>
+                Corte social 25$</br>
+                Barba 15$</br>
+                Pigmentação 10$</br>
+            </p>
+        </div>
+    </div> 
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal3">&times;</span>
+            <h2>Marque seu Horário</h2>
+            <p>Atendemos de segunda a sábado, Agende o seu horário para garantir um atendimento personalizado e sem espera!
+            </br>
+                Segunda 08:00 ás 19:00</br>
+                Terça 08:00 ás 19:00</br>
+                Quarta 08:00 ás 19:00</br>
+                Quinta 08:00 ás 19:00</br>
+                Sexta 08:00 ás 19:00</br>
+                Sábado 08:00 ás 19:00</br>
+            </p>
+            <button class="schedule-btn" onclick="closeModalAndNavigate(contact)">Agendar Agora</button>
+        </div>
+    </div>
+
+    <section id="venha" class="contact">
+        <div class="contact-container">
+            <div class="location">
+                <p>Venha nos conhecer!!!</p>
+                <h1>Estamos localizados na Rua Comendador Garcia, 167 - Vila Peri Fortaleza - CE, 60730-155</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.104429238966!2d-38.57775289999999!3d-3.7874439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c251303698d%3A0x645cf594402b8c98!2sRua%20Comendador%20Garcia%2C%20167%20-%20Vila%20Peri%2C%20Fortaleza%20-%20CE%2C%2060730-155!5e0!3m2!1spt-BR!2sbr!4v1730912992226!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="infos-section">
+        <h2>Entre em Contato</h2>
+        <p>Fale com a gente através dos nossos canais de comunicação:</p>
+        <div class="contact-info-container">
+            <div class="social-icons">
+                <a href="https://wa.me/5585986222644" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="https://www.instagram.com/barbeariaelmacho_/" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="tel:+5585986222644" class="social-icon phone-link">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Telefone</span>
+                </a>    
+                <div class="icon-column left-icons">
+                    <img src="img/icons barbe/barbearia (1).png" alt="Icon 1">
+                    <img src="img/icons barbe/barbearia.png" alt="Icon 2">
+                    <img src="img/icons barbe/cadeira.png" alt="Icon 3">
+                </div>
+                <div class="icon-column right-icons">
+                    <img src="img/icons barbe/compromisso.png" alt="Icon 4">
+                    <img src="img/icons barbe/navalha (1).png" alt="Icon 5">
+                    <img src="img/icons barbe/navalha.png" alt="Icon 6">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="payment-methods" class="payment-methods">
+        <div class="payment-container">
+            <h2>Formas de Pagamento</h2>
+            <p>Escolha a forma de pagamento que mais lhe convém</p>
+            <div class="payment-icons">
+                <a href="#" title="Cartão de Crédito">
+                    <img src="/img/icons/visa.png" alt="Visa" class="payment-icon">
+                </a>
+                <a href="#" title="Mastercard">
+                    <img src="/img/icons/mastercard.png" alt="Mastercard" class="payment-icon">
+                </a>
+                <a href="#" title="Pix">
+                    <img src="/img/icons/pix.png" alt="Pix" class="payment-icon">
+                </a>
+            </div>
+        </div>
+    </section>    
+    
+    <footer>
+        <p>&copy; 2024 Barbearia EL Macho. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
