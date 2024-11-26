@@ -237,6 +237,12 @@ header nav .menu li a:focus {
     text-align: center;
 }
 
+@media (orientation: landscape) {
+    .service {
+        width: 40%;
+    }
+}
+
 .service:hover {
     transform: translateY(-12px) scale(1.05);
     box-shadow: 0 0 35px 15px rgba(255, 255, 255, 0.9);
