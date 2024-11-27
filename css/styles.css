@@ -30,6 +30,7 @@ header nav {
     align-items: center;
     width: 100%;
     position: relative;
+    box-sizing: border-box;
 }
 
 header nav .menu {
